@@ -1,0 +1,73 @@
+# ==========================
+# Android Studio & Gradle
+# ==========================
+
+# Ignore all build output directories
+**/build/
+**/captures/
+**/outputs/
+**/.cxx/
+
+# Ignore Gradle cache files
+.gradle/
+local.properties
+*.iml
+
+# Ignore dependency caches (avoid checking in large binary dependencies)
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.externalNativeBuild/
+
+# ==========================
+# Logs and Temporary Files
+# ==========================
+*.log
+*.swp
+*.swo
+*.DS_Store
+*.lock
+
+# Ignore APKs and app bundles
+*.apk
+*.ap_
+*.aab
+
+# ==========================
+# OS-Specific Files
+# ==========================
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+# Linux
+*~
+
+# ==========================
+# IntelliJ IDEA (Android Studio is based on IntelliJ)
+# ==========================
+.idea/misc.xml
+.idea/vcs.xml
+.idea/httpRequests/
+
+# ==========================
+# Keystore Files (Security)
+# ==========================
+# DO NOT commit keystore files
+*.jks
+*.keystore
+
+# ==========================
+# Coverage Reports
+# ==========================
+*.hprof
+
+# ==========================
+# Google Services (Firebase, Maps, etc.)
+# ==========================
+google-services.json
